@@ -17,3 +17,15 @@
     //a unique hash code will generate after every commit
 //It will give all records that where and how many commits have done
     git log
+//Go to previous version of file
+    git checkout commithashcode or branch name
+//give your a head location
+    git branch
+
+
+//for pushing code on github
+    git remote -v
+    git remote add origin https://github.com/github-user-name/repo-name.git
+    example git remote add origin https://github.com/Anmol-shrivastav/Lets-Try.git
+    git branch -M master
+    git push -u origin master
