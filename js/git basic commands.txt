@@ -1,0 +1,19 @@
+//set user id and email to git
+    git config --global user.name "user name"
+    git config --global user.email "your email id"
+//you can check your user name and mail id is set or not
+    git config --global user.name
+    git config --global user.email
+//Initialize git repository
+    git init
+//Fetch all info about repo ( like how many commits )
+    git status
+//Before commit we have to add(track) files to staging area 
+    git add filename.extension          //add a particular file
+                or
+    git add .                           // add all files
+//commit command
+    git commit -m "User Define Message"
+    //a unique hash code will generate after every commit
+//It will give all records that where and how many commits have done
+    git log
